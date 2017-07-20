@@ -1,0 +1,76 @@
+<!-- You'll want to write your html here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>William Tsang - Blog </title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">  
+  </head>
+
+  <body>
+    <header>
+        <div id="navigation_bar">
+          <ul> 
+            <li><a class="nav_blog" href="../blog/blog.html">BLOG</a></li>
+            <li><a class="nav_index" href="../index.html"><img id="home_img" src="../imgs/home.png"></a></li>
+            <li><a class="nav_projects" href="../projects/projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <br>
+    <br>
+   <div id="body_content">
+      <p id="arraysandhashes">
+        <h2 style="text-align:center">Object Oriented Programming:<br>Inheritance vs Composition</h2>
+        <h3 style="text-align:center">11/16/14</h3> 
+        <br>
+
+        <!-- START EDITTING HERE -->
+        <p><h3><em><strong>What is Inheritance?</strong></em></h3>
+        <h4 style="text-indent:40px;">Let's start with the the word inherit. What does it mean? In a transitive way, inherit means to receive something from someone. Think of your facial features.. You've probably heard something like, "Oh you look more like your mom or dad." For me, people always say that I've inherited my mom's side of the genes because I have similar facial features to the males there. Class inheritance in Ruby is just the same! Think of Class inheritance as a father to son relationship. The son takes after his father with all of his traits, features and personality. (Maybe not the last one.. but take a look at the example below)
+        </h4>
+        <img src="../imgs/t6-oop-pic1.png">
+        <h4 style="text-indent:40px;">Right off the bat, you'll see a Class being created with a method called traits inside. This traits method will puts a string out that will define the Dad. Next, I create the Class Son and you'll notice that there is a < Dad next to it. You probably guessed right. That's the inheritance symbol. When you have this symbol, it means I'm going to inherit all the information, methods, variables within the targeted Class (in this case, Dad). Next, we instantiate these two classes by declaring objects with Dad.new and Son.new. Here's the trick, we call the method traits found in Class Dad on <em><strong>BOTH </strong></em>objects. Tell me what you see! 
+        <br><br>
+        Although the Class Son is not quite Superman yet, he'll grow to be just like his Class Dad.
+        </h4>
+        </p>
+   
+        <p><h3><em><strong>What is Composition?</strong></em></h3>    
+        <h4 style="text-indent:40px;">
+               Inheritance will only be a 1 to 1 copy from class to subclass. Eventually, as the program grows bigger, inherited and parent classes will slowly start to diverge to satisfy the functions written by the programmer. Composition is similar to inheritance but still different at the same time. They both share the idea of using methods and functions from one class to another but the way they do it is different. Here's where Composition shines. There are 2 ways that can "mimick" the uses of inheritance. 
+               <br>
+               1. Share the parent class to a subclass by adding this line, (parentclasshere).new(self).(parentmethodhere)
+               <br> This line calls the Parent class within the subclass and uses a method from the parent class. Awesome right?
+               <br>
+               2. Another method is to use modules and mixins. Just add the line module (modulenamehere). Also, use the line, include (modulenamehere) wherever you want to access the class of choice. Pretty interesting if you ask me. 
+               <br>
+               <br>
+               Personally, I would start getting used to composition as I feel that it may come in handy on bigger projects.
+        </h4>
+        </p>
+
+        <!-- STOP EDITTING HERE -->
+
+    <br>
+    <br>
+
+
+    <footer>
+      <div id="social_media_bar">
+          <ul> 
+            <li><a href="https://www.facebook.com/william.tsang.1420"><img id="facebook" src="../imgs/facebook.png"></a></li>
+            <li><a href="https://www.github.com/kaawang"><img id="github" src="../imgs/github.png"></a></li>
+            <li><a href="https://plus.google.com/102193611752630348634/posts"><img id="google" src="../imgs/google.png"></a></li>
+            <li><a href="https://www.instagram.com/kaawang"><img id="instagram" src="../imgs/instagram.png"></a></li>
+            <li><a href="http://www.linkedin.com/in/williamktsang"><img id="linkedin" src="../imgs/linkedin.png"></a></li>
+            <li><a href="https://www.gmail.com"><img id="mail" src="../imgs/mail.png"></a></li>
+            <li><a href="https://www.twitter.com/WilliamKTsang"><img id="twitter" src="../imgs/twitter.png"></a></li>
+          </ul>  
+        </div>      
+    </footer>
+    <div id="cr">
+         <p>&#174; WT 2014</p>
+    </div>
+  </body>
+

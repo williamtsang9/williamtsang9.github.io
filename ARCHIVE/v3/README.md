@@ -16,21 +16,19 @@ Version 2 - Dec 2014
 A more modern design structure.
 ![This is version 2](ARCHIVE/v2/imgs/V2.png)
 
-Version 3 - March 2015
+Version 3 - March 2015 (current)
 ------------------------
 My latest rehaul while using responsive design with a single page application in mind. 
 ![This is version 3](imgs/V3.png)
 
 I have decided not to use Bootstrap on my website just yet. I have previous experience with Bootsrap and it is a matter of Plug and Play. I want to know what it feels like to really build a website without using something that is already designed to look pretty.
 
-Version 4 - (current)
-------------------------
-
-I decided to try out Bootstrap and I actually really like it! I customized it exactly to my liking. 
-
 Enjoy as I add more content!
 
 
 Content to be added
 ------------------------
+- Add my name to top nav bar
 - More projects
+- Fix About me images to carousel 
+- Fix Contact boxes to footer

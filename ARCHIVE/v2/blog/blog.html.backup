@@ -1,0 +1,134 @@
+<!-- You'll want to write your html here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>William Tsang - Blog </title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">  
+  </head>
+
+  <body>
+    <header>
+        <div id="navigation_bar">
+          <ul> 
+            <li><a class="nav_blog" href="../blog/blog.html">BLOG</a></li>
+            <li><a class="nav_index" href="../index.html"><img id="home_img" src="../imgs/home.png"></a></li>
+            <li><a class="nav_projects" href="../projects/projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <br>
+    <br> # CHANGE THESE TO LINKS 
+   <div id="body_content">
+      <p id="arraysandhashes">
+        <h2 style="text-align:center">Arrays and Hashes</h2>
+        <h3 style="text-align:center">10/24/14</h3> 
+        <h4 style="font-size:16pt"><em><strong>
+            What is an array?
+          </strong></em></span>
+          <p>
+            
+          </p>
+          <span style="font-size:13pt">First guess.. Communications Array like in video games?</span>
+          <img src="../imgs/commarray.jpg">
+          <span style="font-size:13pt">Well yes, a communications array is exactly that but we're talking about an array in programming. More like this.</span>
+          <p>
+            <span>
+              <h2 style="text-align:center">
+              sample_array = [ 0, 1, 2, 3, "i am a string inside an array"]
+              <img src="../imgs/arrayterminal.png">
+              </h2>
+            </span>
+          </p>
+      <p>
+        <h3>
+          <span style="font-size:13pt">As you can see, sample_array is created by specifying the elements that will exist inside of the array container. Once these array elements are assigned, you can reach them by typing the array name followed by [x], where x is the index of the array.</span>
+          <br>
+          <br>
+          <span style="font-size:13pt">Reading the index of the array can get a <em>little</em> bit tricky so you have to be careful. The first element within the array is always index 0. Then the rest will proceed in numerical order. Here's an example.</span>
+          <img src="../imgs/arrayindex.png">
+            <span style="font-size:13pt">Here you have an array with 5 elements. The element content 2 has the index of [0]. The element 5 has the index of [1]. The element 1 has the index of [2] and so on. </span>
+            <br>
+            <br>
+            <span style="font-size:13pt">If you want to add or remove from the array somewhere along your script, you have the options of .push and .pop. 
+            <br>
+            <br>
+              <li style="text-indent:40px">push: This command will add the element of your choice to the end of your array.</li>
+              <li style="text-indent:40px">pop: This command will remove the last element in your array entirely. Kaboom!</li>
+            </span>
+        </h3>
+      </p>
+        <h4 style="font-size:16pt"><em><strong>
+            What is a hash?
+          </strong></em></span>
+          <img src="../imgs/hash.jpg">
+          <span style="font-size:13pt">A hash is a collection of unique keys associated to their corresponding values. Each key will have a value associated with it. Think of it like logins and passwords. The login is associated to its password via Hash. Here's an example of a hash.</span>
+          <p>
+            <span>
+              <h2 style="text-align:center">
+              sample_hash = [ :movies => "avengers2" ]
+              <img src="../imgs/hashterminal.png">
+              
+            </span>
+           <span style="font-size:13pt">You can also create a Hash using its ::new method. For example, sample_hash = Hash.new. Then you can start associate keys with new values. Then type sample_hash["blog_number"]=5</span></h2>
+           </p>
+<br>
+<br>
+<br>
+
+      <p>
+        <h2 style="text-align:center">Display Inline vs Inline Blocks</h2>
+        <h3 style="text-align:center">10/23/14</h3> 
+        <h4 style="text-indent:20px"> When writing the CSS to complement your HTML code, you may find that you want certain elements to display their content in rows and columns. Luckily, there is a way to do this easily with the display attribute. The display attribute has 3 different options you can choose from; <em><strong><span style="font-size:16pt">block, inline and inline-block.</span></strong></em>
+        <p> Take a look at the image below. The following image has a container width of 50px. 
+          <li style="text-indent:40px">
+            Display: block will display each content as if it were blocks going down the container.
+          </li>
+          <br>
+          <li style="text-indent:40px">
+            Display: inline will display the content across the width of the container and wraps the content.
+          </li>
+          <br>
+          <li style="text-indent:40px">
+            Display: inline-block will display the content as a block in a line across the width of the container. It will wrap the content around confining it to its content block size.
+          </li>
+        </p>
+        </h4>
+
+      </p>
+        <img src="../imgs/display inline vs inline block.png">
+
+
+      <p><h2 style="text-align:center">Git and GitHub</h2><h3 style="text-align:center">10/10/14</h3> <h4 style="text-indent:20px">Hi all. This is William Tsang. My Chinese name is Kaawang, hence, the username kaawang. I'm currently enrolled in Dev Bootcamp and I am learning a ton of things and its only the first week! I'd like to share a few of those things with you. What are the benefits of version control? Version control is surprisingly useful. Imagine writing a college essay that has a 25 page requirement. You first start off with a rough draft. Which is the bare backbone of your paper. It contains the bones but not the meat. Your second draft should contain a little more meat to accompany the structure of the paper. Lastly, your third draft should have all of the examples and analysis coherently expressed with the point you are trying to state. This is version control! How does git help you keep track of changes? Git will allow you to manage your changes and check if there are differences between the original and the modified files. There are a series of commands paired with git; add, remove, push, pull, fetch, merge and etc. git add -> adds the modified file to commit list git remove -> removes the modified file from the commit list git commit -> commits the modified files in the commit list git push -> pushes the modified files in the commited list to the GitHub repository git pull -> grabs data and changes from GitHub repository This allows you to manage your work with GitHub. <p><h4 style="text-indent:20px">Why use GitHub to store your code? You should use GitHub to store your code in the event you want to share your code with others. Other developers/programmers can also clone your files and help you with coding as well! Another reason why you should use GitHub is that you can treat it as a storage server that contains the master copy of your code. Once you finish coding a function and you are happy with it, you can push it to GitHub in which it will merge the modified file with the original file. </h4></p>
+
+
+      </p>
+<br>
+<br>
+      <p><h2 style="text-align:center">Chefs Kitchen vs Table</h2><h3 style="text-align:center">10/10/14</h3> <h4 style="text-indent:20px">People may see this as a pay twelve thousand dollars, get in and get out kind of program. I think that's the wrong way to look at it. My take on my DBC experience will be based on how bad I want to learn and what I want to make of it. The teachers are there to assist and guide us in the right directions but at the end of the day, it's the student that will decide if they want to learn it and succeed. My impression of DBC is that it has gone through multiple iterations of refinement. After each passing cohort graduation, the program is refined even finer and sharper than the previous curiculum. This is because the company wants to see you succeed, to be the better than we were yesterday. I usually stay away from the spotlight but I'm looking to change that. I'm looking to break pass my physical and mental barriers. I see myself melding into the culture just fine. There will definitely be people way ahead in the class and people behind trying to grasp the concepts. However, as a cohort, we all want to get through these challenges and make the most of our time here. If I find myself ahead of the group, I'd take a breather and give back to the group by helping those who need assistance. If the siutation were reversed, I'd want someone to give me a bit of a nudge in the right direction. That way, our caravan reaches the destination as a team! I knew from the moment that I applied to DBC, things would be up to me. It's up to me to make the decision to learn. DBC can only do so much to guide me in the right direction. I really intend to give it my all during my time here. I'm definitely excited to participate in this learning environment. It's definitely a first. People say they've been through bootcamps. Well, I can say I've been through a coding bootcamp once I succeed at DBC. I am nervous in a way but I'm also excited and ready to knock it out of the ballpark! Although I somewhat had the Kitchen mentality when applying to DBC, I felt that Shereef's Kitchen vs Table mentality was spot on. I could really relate to what he was saying and I totally agree that we should come in with the Kitchen mindset. </h4>
+
+
+      </p>
+    </div>
+    <br>
+    <br>
+
+
+    <footer>
+      <div id="social_media_bar">
+          <ul> 
+            <li><a href="https://www.facebook.com/william.tsang.1420"><img id="facebook" src="../imgs/facebook.png"></a></li>
+            <li><a href="https://www.github.com/kaawang"><img id="github" src="../imgs/github.png"></a></li>
+            <li><a href="https://plus.google.com/102193611752630348634/posts"><img id="google" src="../imgs/google.png"></a></li>
+            <li><a href="https://www.instagram.com/kaawang"><img id="instagram" src="../imgs/instagram.png"></a></li>
+            <li><a href="http://www.linkedin.com/in/williamktsang"><img id="linkedin" src="../imgs/linkedin.png"></a></li>
+            <li><a href="https://www.gmail.com"><img id="mail" src="../imgs/mail.png"></a></li>
+            <li><a href="https://www.twitter.com/WilliamKTsang"><img id="twitter" src="../imgs/twitter.png"></a></li>
+          </ul>  
+        </div>      
+    </footer>
+    <div id="cr">
+         <p>&#174; WT 2014</p>
+    </div>
+  </body>
+

@@ -1,0 +1,42 @@
+/* include your css here */
+
+body {
+position: relative;
+}
+
+  .q1 h1, .q2 h1, .q3 h1, .q4 h1{
+   color: red;
+   text-align: center;
+   font-family: arial;
+   clear: right;
+   margin: auto;
+  }
+  
+  header {
+      display: block;
+      padding: 20px;
+      /*float: right;*/
+      font-family: arial;
+      position: relative;
+      left: 80%;
+  }
+  
+header span {
+      display: block;
+  }
+  
+.title {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: black
+    font-family: sans-serif;
+}
+
+#image img{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 200px;
+}
+

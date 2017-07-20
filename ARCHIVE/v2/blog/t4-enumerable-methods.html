@@ -1,0 +1,84 @@
+<!-- You'll want to write your html here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>William Tsang - Blog </title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">  
+  </head>
+
+  <body>
+    <header>
+        <div id="navigation_bar">
+          <ul> 
+            <li><a class="nav_blog" href="../blog/blog.html">BLOG</a></li>
+            <li><a class="nav_index" href="../index.html"><img id="home_img" src="../imgs/home.png"></a></li>
+            <li><a class="nav_projects" href="../projects/projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <br>
+    <br>
+   <div id="body_content">
+      <p id="arraysandhashes">
+        <h2 style="text-align:center">Enumerable Methods</h2>
+        <h3 style="text-align:center">10/31/14</h3> 
+        <br>
+
+        <!-- START EDITTING HERE -->
+
+        <h3>What is this, Enumerable#map?</h3>    
+        <img src="../imgs/world-map.jpg">
+        <h4>
+          That's what you are looking for, right? Alright fine, I'll tell you what the map method is. 
+            <p>
+              The map method is a powerful method that takes an enumerable object and a block of code for arguments. It then runs the same block of code for each element within the object and outputs the return value from the block of code. 
+              <br>
+              <br>
+              Here's an example.
+              <br>
+              <br>
+              <h3 class="examples">sample_array = [ 0, 1, 2, 3, 4, 5]
+              <br>
+              <br>
+                sample_array.map do |element| element * 10 end
+              </h3>
+              <h4>              
+                 The example above shows us the sample_array containing 6 elements. The next line utilizes the map method by calling the .map method on the array object. The block of code simply says for each element in the object, multiply the element by 10 and return a new version of the array. 
+              <br>
+              <br>
+              <em>You might think, "William, you are crazy. Can't I just use the .each method and call it a day?"</em>
+              <br>
+              <br>
+                 It's true, the .each and .map methods operate the same way but differ by the end return value. Each returns the original input object while Map returns a new object with the modified elements. Don't believe? Let's see this in irb action.
+              </h4>
+            </p>
+        </h4>
+        <h3>
+          <img src="../imgs/enumerablepic.png">
+        </h3>
+        <h4>Remember the differences between the two methods. It's pretty good stuff!</h4>
+        <!-- STOP EDITTING HERE -->
+
+    <br>
+    <br>
+
+
+    <footer>
+      <div id="social_media_bar">
+          <ul> 
+            <li><a href="https://www.facebook.com/william.tsang.1420"><img id="facebook" src="../imgs/facebook.png"></a></li>
+            <li><a href="https://www.github.com/kaawang"><img id="github" src="../imgs/github.png"></a></li>
+            <li><a href="https://plus.google.com/102193611752630348634/posts"><img id="google" src="../imgs/google.png"></a></li>
+            <li><a href="https://www.instagram.com/kaawang"><img id="instagram" src="../imgs/instagram.png"></a></li>
+            <li><a href="http://www.linkedin.com/in/williamktsang"><img id="linkedin" src="../imgs/linkedin.png"></a></li>
+            <li><a href="https://www.gmail.com"><img id="mail" src="../imgs/mail.png"></a></li>
+            <li><a href="https://www.twitter.com/WilliamKTsang"><img id="twitter" src="../imgs/twitter.png"></a></li>
+          </ul>  
+        </div>      
+    </footer>
+    <div id="cr">
+         <p>&#174; WT 2014</p>
+    </div>
+  </body>
+

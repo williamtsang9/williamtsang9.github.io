@@ -1,0 +1,89 @@
+<!-- You'll want to write your html here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>William Tsang - Blog </title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">  
+  </head>
+
+  <body>
+    <header>
+        <div id="navigation_bar">
+          <ul> 
+            <li><a class="nav_blog" href="../blog/blog.html">BLOG</a></li>
+            <li><a class="nav_index" href="../index.html"><img id="home_img" src="../imgs/home.png"></a></li>
+            <li><a class="nav_projects" href="../projects/projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <br>
+    <br>
+   <div id="body_content">
+      <p id="arraysandhashes">
+        <h2 style="text-align:center">Ruby Classes</h2>
+        <h3 style="text-align:center">11/8/14</h3> 
+        <br>
+
+        <!-- START EDITTING HERE -->
+        <p><h3><em><strong>What are classes?</strong></em></h3><h4 style="text-indent:40px;">
+        Classes in Ruby are created as first class objects where they are instances of the class <strong>Class.</strong> A class is usually defined by type class CLASS_NAME_HERE ( additional methods here ) end. Let's try it in IRB.
+        <img src="../imgs/classcreation.png">
+        <span style="text-indent:40px;">
+        Here's what's happening in the picture above.<br><br>
+        1) Class called New_Class is created.<br>
+        2) Inside New_Class, an instance method called hello is created.<br>
+        3) Inside the hello instance method, a greeting will be displayed when the method is called.<br>
+        4) The variable, test, is set equal to the class, New_class. This creates test as an object of New_Class.<br>
+        5) I can now call the Hello method within the New_Class class which will puts a friendly greeting into the prompt!<br></span>
+
+        <br><br>
+        <span>Here's another handy dandy picture of class hierarchy all thanks to Nick Morgan.</span>
+        <img src="../imgs/rubyclass.jpg">
+      </h4>
+      </p>
+        <p><h3><em><strong>Instance Variables</strong></em></h3><h4 style="text-indent:40px;">
+        Instance variables are extremely awesome. These variables are easily recognized because they have a @ before the name of the variable. For example, @test is an instance variable! An instance variable differs from your standard variables because it can be accessed across methods within your class hierarchy. Say you needed a value stored in the variable in the initialize method of the class. Just make it an instance variable. It might be easier to see it than to imagine it. Check it out in IRB.
+        <img src="../imgs/instancevariables.png">
+        <br><br>
+        1. New_Class has been created.<br>
+        2. Method hello is defined with 2 arguments, name and day.<br>
+        3. Instance Variable @name is set equal to the input argument name.<br>
+        4. Method will puts string with instance variable @name and input argument, day.<br>
+        5. Method test is defined with no arguments. <br>
+        6. Method will puts whatever is in instance variable @name from hello method. Also, method will puts variable day.<br>
+        7. Test_case is now set equal to New_Class and initialized.<br>
+        8. Calling the method hello on the new object test_case and passing the arguments William and Monday, the method outputs the string to the prompt. It works as expected.<br>
+        9. Test method is called on object test_case. <br>
+        10. Instance Variable @name is called and outputs William from the previous method as expected. <br>
+        11. Method tries to output the variable day, there is an error. <br>
+        12. Day was not made an instance variable so it is treated as an local variable. 
+        <br><br>
+        In this case, local variable day was NEVER defined in THIS method. Interesitng huh?
+        <br><br>
+
+        </h4>
+        <!-- STOP EDITTING HERE -->
+
+    <br>
+    <br>
+
+
+    <footer>
+      <div id="social_media_bar">
+          <ul> 
+            <li><a href="https://www.facebook.com/william.tsang.1420"><img id="facebook" src="../imgs/facebook.png"></a></li>
+            <li><a href="https://www.github.com/kaawang"><img id="github" src="../imgs/github.png"></a></li>
+            <li><a href="https://plus.google.com/102193611752630348634/posts"><img id="google" src="../imgs/google.png"></a></li>
+            <li><a href="https://www.instagram.com/kaawang"><img id="instagram" src="../imgs/instagram.png"></a></li>
+            <li><a href="http://www.linkedin.com/in/williamktsang"><img id="linkedin" src="../imgs/linkedin.png"></a></li>
+            <li><a href="https://www.gmail.com"><img id="mail" src="../imgs/mail.png"></a></li>
+            <li><a href="https://www.twitter.com/WilliamKTsang"><img id="twitter" src="../imgs/twitter.png"></a></li>
+          </ul>  
+        </div>      
+    </footer>
+    <div id="cr">
+         <p>&#174; WT 2014</p>
+    </div>
+  </body>
+

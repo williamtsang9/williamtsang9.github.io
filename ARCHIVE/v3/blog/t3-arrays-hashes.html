@@ -1,0 +1,96 @@
+<!-- You'll want to write your html here! -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>William Tsang - Blog </title>
+    <link rel="stylesheet" type="text/css" href="./blog.css">  
+  </head>
+
+  <body>
+    <header>
+        <div id="navigation_bar">
+          <ul> 
+            <li><a class="nav_blog" href="../blog/blog.html">BLOG</a></li>
+            <li><a class="nav_index" href="../index.html"><img id="home_img" src="../imgs/home.png"></a></li>
+            <li><a class="nav_projects" href="../projects/projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+    </header>
+
+    <br>
+    <br>
+   <div id="body_content">
+      <p id="arraysandhashes">
+        <h2 style="text-align:center">Arrays and Hashes</h2>
+        <h3 style="text-align:center">10/24/14</h3> 
+        <h4 style="font-size:16pt"><em><strong>
+            What is an array?
+          </strong></em></span>
+          <p>
+            
+          </p>
+          <span style="font-size:13pt">First guess.. Communications Array like in video games?</span>
+          <img src="../imgs/commarray.jpg">
+          <span style="font-size:13pt">Well yes, a communications array is exactly that but we're talking about an array in programming. More like this.</span>
+          <p>
+            <span>
+              <h2 style="text-align:center">
+              sample_array = [ 0, 1, 2, 3, "i am a string inside an array"]
+              <img src="../imgs/arrayterminal.png">
+              </h2>
+            </span>
+          </p>
+      <p>
+        <h3>
+          <span style="font-size:13pt">As you can see, sample_array is created by specifying the elements that will exist inside of the array container. Once these array elements are assigned, you can reach them by typing the array name followed by [x], where x is the index of the array.</span>
+          <br>
+          <br>
+          <span style="font-size:13pt">Reading the index of the array can get a <em>little</em> bit tricky so you have to be careful. The first element within the array is always index 0. Then the rest will proceed in numerical order. Here's an example.</span>
+          <img src="../imgs/arrayindex.png">
+            <span style="font-size:13pt">Here you have an array with 5 elements. The element content 2 has the index of [0]. The element 5 has the index of [1]. The element 1 has the index of [2] and so on. </span>
+            <br>
+            <br>
+            <span style="font-size:13pt">If you want to add or remove from the array somewhere along your script, you have the options of .push and .pop. 
+            <br>
+            <br>
+              <li style="text-indent:40px">push: This command will add the element of your choice to the end of your array.</li>
+              <li style="text-indent:40px">pop: This command will remove the last element in your array entirely. Kaboom!</li>
+            </span>
+        </h3>
+      </p>
+        <h4 style="font-size:16pt"><em><strong>
+            What is a hash?
+          </strong></em></span>
+          <img src="../imgs/hash.jpg">
+          <span style="font-size:13pt">A hash is a collection of unique keys associated to their corresponding values. Each key will have a value associated with it. Think of it like logins and passwords. The login is associated to its password via Hash. Here's an example of a hash.</span>
+          <p>
+            <span>
+              <h2 style="text-align:center">
+              sample_hash = [ :movies => "avengers2" ]
+              <img src="../imgs/hashterminal.png">
+              
+            </span>
+           <span style="font-size:13pt">You can also create a Hash using its ::new method. For example, sample_hash = Hash.new. Then you can start associate keys with new values. Then type sample_hash["blog_number"]=5</span></h2>
+           </p>
+    <br>
+    <br>
+
+
+    <footer>
+      <div id="social_media_bar">
+          <ul> 
+            <li><a href="https://www.facebook.com/william.tsang.1420"><img id="facebook" src="../imgs/facebook.png"></a></li>
+            <li><a href="https://www.github.com/kaawang"><img id="github" src="../imgs/github.png"></a></li>
+            <li><a href="https://plus.google.com/102193611752630348634/posts"><img id="google" src="../imgs/google.png"></a></li>
+            <li><a href="https://www.instagram.com/kaawang"><img id="instagram" src="../imgs/instagram.png"></a></li>
+            <li><a href="http://www.linkedin.com/in/williamktsang"><img id="linkedin" src="../imgs/linkedin.png"></a></li>
+            <li><a href="https://www.gmail.com"><img id="mail" src="../imgs/mail.png"></a></li>
+            <li><a href="https://www.twitter.com/WilliamKTsang"><img id="twitter" src="../imgs/twitter.png"></a></li>
+          </ul>  
+        </div>      
+    </footer>
+    <div id="cr">
+         <p>&#174; WT 2014</p>
+    </div>
+  </body>
+

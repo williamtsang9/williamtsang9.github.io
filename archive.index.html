@@ -1,0 +1,150 @@
+<!-- You'll want to write your html here! -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.42, maximum-scale=0.42, user-scalable=yes">    
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta name="author" content="William Tsang">
+    <script type="text/javascript" src="public/jquery.min.1.11.2.js"></script>
+    <script type="text/javascript" src="public/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="public/application.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/index.css">
+    <!-- <link rel="stylesheet" type="text/css" media="all˚" href="public/media.css"> -->
+    <link href='http://fonts.googleapis.com/css?family=Noto+Serif' rel='stylesheet' type='text/css'>
+    <title>William Tsang</title>
+  </head>
+  <nav id="stickynav">
+    <li id="nav">
+      <a class="link" href="#aboutme">about me</a>
+      <a class="link" href="#portfolio">portfolio</a>
+      <a class="link" href="#contact">contact</a>
+      <a class="link" href="#greeting">back to top</a>
+      <!-- <a class="link" href="#resume">resume</a> -->
+      <span class="name"><strong>William K Tsang</strong></span>
+    </li>
+  </nav>
+  <body>
+    <div id="container">
+      <section id="greeting" class="section">
+        <div id="greeting_joke" class="greeting_joke_answer">
+          <h3>What do you get when you put a web developer,a learner of learning, awesomeness and sour beers together?
+          </h3>
+        </div>
+        <div id="greeting_joke_answer" class="greeting_joke_answer">
+          <h3>ME!</h3>
+        </div>
+        <div id="greeting_hlist">
+          <ul>
+            <li><img class="greeting_img" src="imgs/DBC-Selfshot-v2.png"></li>
+            <li><h2>Hi, I'm William!</h2> </li><br>
+            <li><h3>web developer, learner of learning, awesome guy, sour beers</h3></li>
+            <li><h3>lorem ipsum</h3></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="aboutme" class="sectioncolored">
+        <h2>Past to Present</h2>
+        <div class="aboutmetext">
+          <h3>
+            <p>
+              For years, I have wanted to work in the industry that I had trained for in college. This industry, Application Specific Integrated Chip(ASIC) Design, will always be fascinating as the heart of technology is always created in this line of work. I worked for an ASIC design services company and found it to be a marvelous ride filled with experiences that I'll never forget. However, I started wondering if this was my true calling. 
+            </p>
+            <p>            
+              <em>
+                <li class="aboutmeinnertext">Am I comfortable and relaxed?</li>
+                <li class="aboutmeinnertext">Was I motivated? </li>
+                <li class="aboutmeinnertext">Any inspiring figures to look up to?</li>
+                <li class="aboutmeinnertext">Mentorship availability?</li>
+              </em>
+            </p>
+            <p>  
+              The answers to these questions are important to me as I want to stay engaged and focused as well as having role models to follow. I began looking into programming and web development as it was something that I have always feared. After spending 19 intensive weeks at a coding bootcamp, I can say that I'm simultaneously comfortable and uncomfortable while being challenged on a daily basis. I'm motivated by seeing such a large community contributing to numerous projects all around the world. Mentorship and inspiration will be the main factors that will drive you year in and year out. 
+            </p>
+            <p>
+              <li class="aboutmeinnertext">Do what you love and love what you do.</li>
+            </p>
+          </h3>
+        </div>
+        <div class="aboutmeinnertext_magicbutton"><h3>Too long, didn't read? No problem. Hover me!</h3></div>
+
+        <div id="aboutmepictures"> 
+          <div>
+            BS in Electrical Engineering 2011
+            <img class="aboutmeimgtag" src="imgs/sfsu.jpg">
+          </div>
+          <div>
+            Employed at Revel Systems 2011-2012
+            <img class="aboutmeimgtag" src="imgs/revelpos.jpg">
+          </div>
+          <div>
+            Employed at Uniquify 2013-2014
+            <img class="aboutmeimgtag" src="imgs/asicchip.jpg">
+          </div>
+          <div>
+            Completed Dev Bootcamp 2015
+            <img class="aboutmeimgtag" src="imgs/dbc.jpg">
+          </div>
+        </div>
+        <div class="aboutmeinnertext_magicbuttonback"><h3>Now you want to read? Hover me!<h3></div>
+      </section>
+
+      <section id="portfolio" class="section">
+        <h2>What I've done</h2>
+          <div id="portfolio_format">
+            Here's a final project that I took part in building during my time at DBC. Many more projects to come.
+            <div id="hummingbird">
+              <h3>
+                <li>Hummingbird</li>
+                <img src="imgs/hummingbird-background.png">  
+              </h3>
+          </div>
+            </div>
+
+            <div id="hummingbird_description">
+              <h3><strong>Summary</strong></h3><br>
+              <h4>
+                <p>
+                  Hummingbird was created with a purpose of scheduling text messages so that they could be sent at the right time. Our idea was to have the backend API always up and running so that frontend users could connect to it. The best way to envision this idea was through decoupled architecture. By decoupling the web app, the backend could actively batch up messages to be sent while the frontend users access the application to schedule their messages. The tech stack includes Ruby on Rails using the Twilio API for the backend and Ionic(AngularJS) framework for the frontend.
+                </p><br>
+                <h3><strong><li>Tech Stack</li></strong></h3><br>
+                <li>Decoupled Archiecture</li>
+                <li>Frontend: Ionic Framework with AngularJS</li>
+                <li>Backend: Rails with PostgreSQL</li><br>
+              </h4>
+            </div>
+      </section>
+
+      <section id="contact" class="sectioncolored">
+        <h2>Contact me</h2>
+        <div id="contact_format">
+          <div>email: williamkt91@gmail.com
+            <a href="#contact">
+              <img class="socialmedia" src="imgs/gmail.png">
+              </a>
+          </div>
+          <div>github: kaawang
+            <a href="https://github.com/kaawang">
+              <img class="socialmediagithub" src="imgs/github.png">
+            </a>
+          </div>
+          <div>linkedin: williamktsang
+            <a href="https://www.linkedin.com/in/williamktsang">
+              <img class="socialmedia" src="imgs/linkedin.png">
+            </a>
+          </div>
+          <div>twitter: williamktsang
+            <a href="https://twitter.com/WilliamKTsang">
+              <img class="socialmediatwitter"src="imgs/twitter.png">
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <footer>
+    &nbsp; &#169; William K Tsang 2015
+  </footer>
+</html>

@@ -1,0 +1,51 @@
+html{
+     background: #f0f8ff;
+     height: 100%;
+     width:100%;
+}
+
+div.navigation, div.body, div.header_title, div.img_title, div.img_title img{
+     border:1px;
+     border-style: solid;
+     border-color: black;
+}
+
+div.img_title{
+     position:relative;
+     width:100%;
+     height:100%;
+     font-size: 600%;
+     list-style-type: none;
+}
+
+div.img_title img{
+     position: relative;
+     top:10px;
+     left:2px;
+     width:20%;
+     height:auto;
+}
+
+div.navigation{
+     position:absolute;
+     width:20%;
+}
+
+div.body{
+     float:right;
+     position:relative;
+     width:79%;
+     height: 80%;
+} 
+
+div.social_media ul li{
+     list-style-type: none;
+}
+
+
+
+
+div#body_text{
+     text-indent: 30.0em;
+}
+

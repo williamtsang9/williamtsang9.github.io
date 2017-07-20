@@ -1,0 +1,59 @@
+html{
+     background-color: #006699;
+}
+#title{
+     font-family: Verdana;
+     font-size: 30px;
+     text-align: center;
+}
+
+#map {
+     width: 700px;
+     height: 500px;
+     position: relative;
+     /*background-image: url("./map.jpg");*/
+     background-color: #996600;
+     margin: auto;
+     border-width: 10px;
+     border-style: solid;
+     border-color: #999966
+}
+
+#innerMap{
+     position: absolute;
+     background-color: green;
+     width: 500px;
+     height: 300px;
+     top: 100px;
+     left: 100px;
+}
+
+#startFlag, #endFlag, #mokiIcon { position: absolute;}
+
+#mokiIcon img{
+     position: absolute;
+     z-index: 2;
+     height: 100px;
+     width: 100px;
+     left: 600px;
+     top: 400px;
+     background-color: transparent;
+}
+
+#startFlag img{
+     position: absolute;
+     height: 100px;
+     width: 100px;
+     left: 600px;
+     top: 300px;     
+     background-color: transparent;     
+}
+
+#endFlag img{
+     position: absolute;     
+     height: 100px;
+     width: 100px;
+     left: 500px;
+     top: 400px;     
+     background-color: transparent;     
+}

@@ -1,0 +1,247 @@
+/*============GLOBAL============ */
+*{
+    /*outline: 1px solid;*/
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    border: 0px;
+    list-style-type: none;
+}
+
+a:hover, a:visited, a:link {
+  text-decoration: none;
+  color: black;
+}
+/*============END GLOBAL============*/
+
+/*============NAV============*/
+
+#stickynav{
+  position: fixed;
+  width: 100%;
+}
+
+#nav, footer{
+  background-color: black;
+  padding: 10px;
+  right: 20%;
+}
+
+#nav a, footer {
+  color: white;
+}
+
+.name{
+  position: fixed;
+  font-size: 29px;
+  right: 20px;
+  top: 2px;
+  color: #99CCFF;
+  /*outline: 1px solid white;*/
+}
+
+/*============END NAV============*/
+
+/*============SECTION============*/
+.section {
+  padding-top: 40px;
+  height: 895px;
+  outline: 1px solid;
+}
+
+.sectioncolored {
+  background-color: #B2CCCC;
+  padding-top: 40px;
+  height: 895px;
+  outline: 1px solid;
+}
+
+/*============END SECTION============*/
+
+    /*============SECTION>GREETING============*/
+#greeting_hlist, h2{
+  text-align: center;
+  padding-top: 25px; 
+  padding-bottom: 10px;
+}
+
+.greeting_img{
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.section h2{
+  font-size: 50px;
+}
+
+.sectioncolored h2{
+  font-size: 50px;
+}
+
+#greeting_joke{
+  padding-top: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#greeting_joke_answer{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 100px;  
+}
+/*============END SECTION>GREETING============*/
+
+
+/*============SECTION>ABOUTME============*/
+
+.aboutmetext{
+  text-align: left;
+  padding-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px; 
+  margin-bottom: 30px;
+}
+
+.aboutmeinnertext{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.aboutmeinnertext_magicbutton{
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  outline: 3px solid;
+  /*position: static;*/
+}
+
+.aboutmeinnertext_magicbuttonback{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+  outline: 3px solid;
+  position: static;
+}
+
+#aboutmepictures{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.aboutmeimgtag{
+  width: 350px;
+  height: 300px;
+}
+
+#aboutmepictures div{
+  outline: 3px solid;
+  background-color: white;
+  margin: 5px;
+  padding-bottom: 21px;
+  display: inline-block;
+  height: 300px;
+  width: 350px;
+}
+
+.image{
+  color: blue;
+  font-size: 50px;
+}
+
+/*============END SECTION>ABOUTME============*/
+
+
+/*============SECTION>PORTFOLIO============*/
+
+#portfolio_format{
+  text-align: center;
+}
+#hummingbird, #hummingbird li{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+#hummingbird img{
+  float:left;
+  margin-left: 15%;
+  margin-right: 5%;
+  outline: 3px solid;
+  height: 600px;
+  width: 300px
+}
+
+#hummingbird_description h4{
+  text-align: left;
+  margin-right: 15%;
+}
+
+/*============END SECTION>PORTFOLIO============*/
+
+
+/*============SECTION>CONTACT============*/
+
+#contact_format{
+  text-align: center;
+  padding-top: 80px;
+}
+
+#contact_format div{
+  background-color: #B2CCCC;
+  margin: 5px;
+  padding-top: 10px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
+
+.socialmedia{
+  /*outline: 1px solid;*/
+  position: static;
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.socialmediatwitter{
+  /*outline: 1px solid;*/
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: static;
+  height: 185px;
+  width: 185px;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.socialmediagithub{
+  /*outline: 1px solid;*/
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: static;
+  height: 175px;
+  width: 175px;
+  opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.socialmedia:hover, .socialmediatwitter:hover, .socialmediagithub:hover {
+  opacity: 0.3;
+}
+
+/*============END SECTION>CONTACT============*/
+
+footer{
+  text-align: center;
+}

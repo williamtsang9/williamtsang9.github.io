@@ -1,0 +1,145 @@
+/* ||||||||||||||||||||||||||||||||||||||||||||Entire page ||||||||||||||||||||||||||||||||||||||||||||*/
+/* ||||||||||||||||||||||||||||||||||||||||||||Entire page ||||||||||||||||||||||||||||||||||||||||||||*/
+/* ||||||||||||||||||||||||||||||||||||||||||||Entire page ||||||||||||||||||||||||||||||||||||||||||||*/
+
+html, a{
+     background: #ffffff;
+     text-decoration: none;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||Header||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Header||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Header||||||||||||||||||||||||||||||||||||||||||||*/
+
+header{
+     display:block;
+     background: black;  
+     position: fixed;
+     margin-top:-11px;
+     padding-top:-5px;
+     padding-bottom:12px;
+     margin-left:-10px;
+     padding-right:10px;
+     height: 40px;
+     width:100%;
+}
+
+#navigation_bar a{
+     text-decoration: none;
+     font-size: 20px;
+     margin-left: 20px;
+     margin-right: 20px;
+     list-style-type: none;
+     border: solid;
+     border-color: black;
+     background-color:black;
+     color:white;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||Navigation buttons||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Navigation buttons||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Navigation buttons||||||||||||||||||||||||||||||||||||||||||||*/
+
+#navigation_bar ul li {
+     list-style-type: none;
+     display:inline-block;
+     position: relative;
+     left:30%;
+}
+
+.nav_index img{
+     width:50px;
+     height:40px;
+     display:inline;
+     vertical-align: top;
+     margin-top: -10px;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||Body content||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Body content||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Body content||||||||||||||||||||||||||||||||||||||||||||*/
+
+#body_content{
+     background: #F0F8FF;
+     position:fixed;
+     top:80px;
+     left:170px;
+     width:60%;
+     height:70%;
+     padding-left: 20px;
+     padding-right: 20px;
+     overflow: scroll;
+}
+
+#body_content h1, #body_content h2{
+    text-align:center;
+}
+
+#body_content img{
+    position: relative;
+    display:block;
+    left:34%;
+    max-width: 200px;
+    max-height: 250px;
+    min-width: 199px;
+    min-height: 249px;
+    width: 50%;
+
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||Footer||||||||||||||||||||||||||||||||||||||||||||*/
+
+footer{
+    background:black;
+    display:block;
+    max-width: 400px;
+    position: fixed;
+    bottom:5px;
+    height:55px;
+    left:32.5%;
+    margin-bottom: -5px;
+    padding-right:39px;
+}
+
+#social_media_bar a{
+     text-decoration: none;
+     list-style-type: none;
+}
+
+#social_media_bar li{
+    list-style-type:none;
+    display:inline-block;
+}
+
+#social_media_bar ul li a img{
+    display:inline;
+    width:30px;
+    height:30px;
+    vertical-align: bottom;
+}
+
+#cr p{
+    position: fixed;
+    bottom:0%;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||||BLOG||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||BLOG||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||BLOG||||||||||||||||||||||||||||||||||||||||||||*/
+
+
+
+
+
+
+/*||||||||||||||||||||||||||||||||||||||||||||PROJECTS||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||PROJECTS||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||PROJECTS||||||||||||||||||||||||||||||||||||||||||||*/
+
+#version1and2 img{
+    width:55%;
+    height: 55%;
+
+}

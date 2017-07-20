@@ -1,0 +1,35 @@
+//Create new object
+
+// Using object literal
+var fiat = {
+ type: "Fiat", 
+ model: 500, 
+ color: "white",
+ display: function() {
+     console.log("I drive " + this.color + " " + this.type + " " + this.model);
+ }
+};
+
+// Using object constructor
+function Car(type, model, color) {
+ this.type = type;
+ this.model = model;
+ this.color = color;
+ this.display = function() {
+console.log("I drive " + this.color + " " + this.type + " " + this.model);
+ }
+}
+
+var fiat = new Car("Fiat", 500, "white");
+
+// Access object properties
+
+//Using dot notation
+fiat.type; //=> "Fiat"
+
+// Using brackets
+fiat["type"]; // => "Fiat"
+
+// Access object methods
+
+fiat.display(); //=> need () to run function, otherwise will return object definition
